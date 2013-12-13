@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C22B3CC1833ED2200EC43B8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C22B3CB1833ED2200EC43B8 /* MediaPlayer.framework */; };
+		4C22B3CF1833FA9100EC43B8 /* bward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C22B3CD1833FA9100EC43B8 /* bward.png */; };
+		4C22B3D01833FA9100EC43B8 /* media-fast-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C22B3CE1833FA9100EC43B8 /* media-fast-forward.png */; };
+		4C22B3D61834460D00EC43B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C22B3D51834460D00EC43B8 /* AVFoundation.framework */; };
+		4C2A815D185265AC00E9CB16 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2A815C185265AC00E9CB16 /* AudioToolbox.framework */; };
+		4C2A815F1852724000E9CB16 /* ez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C2A815E1852724000E9CB16 /* ez.mp3 */; };
 		4C404B991833E5A7002358BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C404B981833E5A7002358BE /* Foundation.framework */; };
 		4C404B9B1833E5A7002358BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C404B9A1833E5A7002358BE /* CoreGraphics.framework */; };
 		4C404B9D1833E5A7002358BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C404B9C1833E5A7002358BE /* UIKit.framework */; };
@@ -22,6 +28,10 @@
 		4C404BBD1833E5A7002358BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C404B9C1833E5A7002358BE /* UIKit.framework */; };
 		4C404BC51833E5A7002358BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C404BC31833E5A7002358BE /* InfoPlist.strings */; };
 		4C404BC71833E5A7002358BE /* phv2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C404BC61833E5A7002358BE /* phv2Tests.m */; };
+		4C404BD11833E5BA002358BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C404BD01833E5BA002358BE /* QuartzCore.framework */; };
+		4C404BD41833E63C002358BE /* media-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C404BD21833E63C002358BE /* media-pause.png */; };
+		4C404BD51833E63C002358BE /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C404BD31833E63C002358BE /* triangle.png */; };
+		4CF416A618345D450076EFCB /* gg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF416A518345D450076EFCB /* gg.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C22B3CB1833ED2200EC43B8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C22B3CD1833FA9100EC43B8 /* bward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bward.png; sourceTree = "<group>"; };
+		4C22B3CE1833FA9100EC43B8 /* media-fast-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-fast-forward.png"; sourceTree = "<group>"; };
+		4C22B3D51834460D00EC43B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C2A815C185265AC00E9CB16 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C2A815E1852724000E9CB16 /* ez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ez.mp3; sourceTree = "<group>"; };
 		4C404B951833E5A7002358BE /* phv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C404B981833E5A7002358BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C404B9A1833E5A7002358BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +72,10 @@
 		4C404BC21833E5A7002358BE /* phv2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "phv2Tests-Info.plist"; sourceTree = "<group>"; };
 		4C404BC41833E5A7002358BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C404BC61833E5A7002358BE /* phv2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phv2Tests.m; sourceTree = "<group>"; };
+		4C404BD01833E5BA002358BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C404BD21833E63C002358BE /* media-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-pause.png"; sourceTree = "<group>"; };
+		4C404BD31833E63C002358BE /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		4CF416A518345D450076EFCB /* gg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gg.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2A815D185265AC00E9CB16 /* AudioToolbox.framework in Frameworks */,
+				4C22B3D61834460D00EC43B8 /* AVFoundation.framework in Frameworks */,
+				4C22B3CC1833ED2200EC43B8 /* MediaPlayer.framework in Frameworks */,
+				4C404BD11833E5BA002358BE /* QuartzCore.framework in Frameworks */,
 				4C404B9B1833E5A7002358BE /* CoreGraphics.framework in Frameworks */,
 				4C404B9D1833E5A7002358BE /* UIKit.framework in Frameworks */,
 				4C404B991833E5A7002358BE /* Foundation.framework in Frameworks */,
@@ -104,6 +128,10 @@
 		4C404B971833E5A7002358BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C2A815C185265AC00E9CB16 /* AudioToolbox.framework */,
+				4C22B3D51834460D00EC43B8 /* AVFoundation.framework */,
+				4C22B3CB1833ED2200EC43B8 /* MediaPlayer.framework */,
+				4C404BD01833E5BA002358BE /* QuartzCore.framework */,
 				4C404B981833E5A7002358BE /* Foundation.framework */,
 				4C404B9A1833E5A7002358BE /* CoreGraphics.framework */,
 				4C404B9C1833E5A7002358BE /* UIKit.framework */,
@@ -131,6 +159,12 @@
 		4C404B9F1833E5A7002358BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CF416A518345D450076EFCB /* gg.mp3 */,
+				4C2A815E1852724000E9CB16 /* ez.mp3 */,
+				4C22B3CD1833FA9100EC43B8 /* bward.png */,
+				4C22B3CE1833FA9100EC43B8 /* media-fast-forward.png */,
+				4C404BD21833E63C002358BE /* media-pause.png */,
+				4C404BD31833E63C002358BE /* triangle.png */,
 				4C404BA01833E5A7002358BE /* phv2-Info.plist */,
 				4C404BA11833E5A7002358BE /* InfoPlist.strings */,
 				4C404BA41833E5A7002358BE /* main.m */,
@@ -235,8 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C404BB41833E5A7002358BE /* Images.xcassets in Resources */,
+				4C404BD51833E63C002358BE /* triangle.png in Resources */,
+				4CF416A618345D450076EFCB /* gg.mp3 in Resources */,
+				4C22B3CF1833FA9100EC43B8 /* bward.png in Resources */,
+				4C2A815F1852724000E9CB16 /* ez.mp3 in Resources */,
+				4C404BD41833E63C002358BE /* media-pause.png in Resources */,
 				4C404BA31833E5A7002358BE /* InfoPlist.strings in Resources */,
 				4C404BAC1833E5A7002358BE /* Main.storyboard in Resources */,
+				4C22B3D01833FA9100EC43B8 /* media-fast-forward.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +507,7 @@
 				4C404BCC1833E5A7002358BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C404BCD1833E5A7002358BE /* Build configuration list for PBXNativeTarget "phv2Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +516,7 @@
 				4C404BCF1833E5A7002358BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

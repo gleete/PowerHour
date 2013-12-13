@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface phv2AppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@interface phv2AppDelegate : UIResponder <UIApplicationDelegate> {
+    IBOutlet UILabel *countdownLabel;
+    NSTimer *timer;
+    
+    
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
 

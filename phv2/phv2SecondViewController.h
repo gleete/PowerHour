@@ -7,7 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface phv2SecondViewController : UIViewController
+
+@interface phv2SecondViewController : UIViewController  <UITableViewDelegate, UITableViewDataSource> {
+    NSArray *tableData;
+    
+    //Music information
+    IBOutlet UILabel    *musicInfo;
+    NSString            *songDescip;
+    IBOutlet UILabel    *artistAlbum;
+    NSString            *artAlb;
+    
+    IBOutlet UIImageView *artworkImageView;
+    MPMediaItemCollection *collection;
+    MPMusicPlayerController *musicPlayer;
+    
+    NSMutableArray *theSongList;
+    NSMutableArray *theArtistList;
+
+}
+
+
+
 
 @end
